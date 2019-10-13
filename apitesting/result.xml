@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="LAPTOP-THS4FVQK" name="pytest" skipped="0" tests="6" time="7.693" timestamp="2019-09-11T19:16:19.935286"><testcase classname="test_list_user" file="F:\pytest\api\test_list_user.py" line="3" name="test_list_valid_user[1-George]" time="0.997"></testcase><testcase classname="test_list_user" file="F:\pytest\api\test_list_user.py" line="3" name="test_list_valid_user[2-Janet]" time="0.830"></testcase><testcase classname="test_list_user" file="F:\pytest\api\test_list_user.py" line="12" name="test_list_invaliduser" time="1.319"></testcase><testcase classname="test_login_user" file="F:\pytest\api\test_login_user.py" line="3" name="test_login_valid" time="1.450"><failure message="AssertionError: {&quot;error&quot;:&quot;user not found&quot;}
+assert 400 == 200
+  -400
+  +200">supply_url = &apos;https://reqres.in/api&apos;
+
+&gt;   ???
+E   AssertionError: {&quot;error&quot;:&quot;user not found&quot;}
+E   assert 400 == 200
+E     -400
+E     +200
+
+F:\pytest\api\test_login_user.py:9: AssertionError</failure></testcase><testcase classname="test_login_user" file="F:\pytest\api\test_login_user.py" line="11" name="test_login_no_password" time="1.241"></testcase><testcase classname="test_login_user" file="F:\pytest\api\test_login_user.py" line="19" name="test_login_no_email" time="1.224"><failure message="AssertionError: {&quot;error&quot;:&quot;Missing email or username&quot;}
+assert 400 == 200
+  -400
+  +200">supply_url = &apos;https://reqres.in/api&apos;
+
+&gt;   ???
+E   AssertionError: {&quot;error&quot;:&quot;Missing email or username&quot;}
+E   assert 400 == 200
+E     -400
+E     +200
+
+F:\pytest\api\test_login_user.py:25: AssertionError</failure></testcase></testsuite></testsuites>
